@@ -15,4 +15,5 @@ app.get('/ola', function (_req, res) {
 app.get('/', function (_req, res) {
     res.send("Hello world!");
 });
+var X;
 app.listen(3000);
